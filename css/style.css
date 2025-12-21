@@ -35,6 +35,31 @@ header {
     text-decoration: none;
 }
 
+/* ========== NAVBAR MOBILE ========== */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;      /* Logo em cima, links embaixo */
+        align-items: center;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .nav-links li {
+        margin: 0;                   /* Remove margem lateral antiga */
+    }
+}
+
 /* ========== HERO ========== */
 .hero {
     height: 300px;
